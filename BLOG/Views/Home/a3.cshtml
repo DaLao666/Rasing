@@ -1,0 +1,250 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>rising-Blog-VB</title>
+    <style type="text/css">
+        a:link, a:visited {
+            text-decoration: none; /*超链接无下划线*/
+        }
+
+        a:hover {
+            text-decoration: underline; /*鼠标放上去有下划线*/
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div#header {
+            width: 100%;
+            height: 100px;
+        }
+
+        div#content_menu {
+            height: 800px;
+            width: 80px;
+            background-size: cover;
+            float: left;
+        }
+
+        div#content_body {
+            width: 95.6%;
+            height: 800px;
+            float: left;
+        }
+
+        div#footer {
+            width: 100%;
+            height: 78px;
+            clear: both; /**清除浮动*/
+        }
+
+        #标志 {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        #登陆 {
+            font-size: 30px;
+            color: black;
+            font-family: 楷体;
+            margin-top: -25px;
+            margin-left: 1800px;
+        }
+
+        #注册 {
+            font-size: 30px;
+            color: black;
+            font-family: 楷体;
+            margin-top: -62px;
+            margin-left: 1700px;
+        }
+
+        #博客网 {
+            font-size: 70px;
+            color: #1ABDE6;
+            font-family: 楷体;
+            margin-top: -120px;
+            margin-left: 300px;
+            text-shadow: 2px 2px 2px #000;
+        }
+
+        #首页 {
+            font-size: 25px;
+            color: white;
+            font-family: 楷体;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        #C {
+            font-size: 25px;
+            color: white;
+            font-family: 楷体;
+            margin-top: 15px;
+            margin-left: 10px;
+        }
+
+        #JAVA {
+            font-size: 25px;
+            color: white;
+            font-family: 楷体;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+        #VS {
+            font-size: 25px;
+            color: white;
+            font-family: 楷体;
+            margin-top: 25px;
+            margin-left: 10px;
+        }
+
+        #VB {
+            font-size: 25px;
+            color: white;
+            font-family: 楷体;
+            margin-top: 30px;
+            margin-left: 10px;
+        }
+
+        #C1 {
+            font-size: 25px;
+            color: white;
+            font-family: 楷体;
+            margin-top: 35px;
+            margin-left: 10px;
+        }
+
+        div#好文 {
+            width: 500px;
+            height: 500px;
+            margin-left: 80px;
+        }
+
+        #a1 {
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            margin-top: 2px;
+            margin-left: 10px;
+            text-indent: 4px;
+            height: 45px;
+            width: 200px;
+            text-align: left;
+            font-size: 25px;
+            color: black;
+            font-family: 楷体;
+        }
+
+        #a3 {
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            margin-top: 2px;
+            margin-left: 10px;
+            text-indent: 4px;
+            height: 45px;
+            width: 200px;
+            text-align: left;
+            font-size: 25px;
+            color: black;
+            font-family: 楷体;
+        }
+
+
+        div#博客搜索 {
+            width: 420px;
+            height: 250px;
+            margin-left: 1400px;
+            margin-top: -500px;
+        }
+
+        #a4 {
+            width: 250px;
+            height: 35px;
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            text-indent: 2em;
+            border: 3px solid #BFEFFF;
+        }
+
+        #a5 {
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            height: 40px;
+            width: 70px;
+            text-align: center;
+            font-size: 20px;
+            font-family: 楷体;
+            margin-left: 80px;
+        }
+
+        div#博客红人 {
+            width: 420px;
+            height: 510px;
+            margin-left: 1400px;
+            margin-top: 22px;
+        }
+
+        #a6 {
+            font-size: 10px;
+            color: black;
+            font-family: 楷体;
+            margin-left: 800px;
+        }
+         #个人 {
+            font-size: 25px;
+            color: white;
+            font-family: 楷体;
+            margin-top: 40px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body background="~/img/1.jpg" background-repeat:no-repeat;>
+
+    <div id="header">
+        <img id="标志" src="~/img/标志.png" width="350" height="80" alt="Rising的LOGO" />
+        <body1 link="black" alink="black" vlink="black">
+            <p id="登陆"><a href="~/Home/Signin">登陆</a></p>
+            <p id="注册"><a href="~/Home/register">注册</a></p>
+            <p id="博客网">博客网</p>
+    </div>
+    <div id="content_menu" 内容菜单>
+        <p id="首页"><a href="~/Home/index">首页</a></p>
+        <p id="C"><a href="~/Home/a1">C#</a></p>
+        <p id="JAVA"><a href="~/Home/a2">JAVA</a></p>
+        <p id="VS"><a href="~/Home/a3">VS</a> </p>
+        <p id="VB"><a href="~/Home/a4">VB</a> </p>
+        <p id="C1"><a href="~/Home/a5">C++</a> </p>
+        <p id="个人"><a href="~/Home/a6">个人</a> </p>
+
+    </div>
+    <div id="content_body" 内容主题>
+        <div id="好文">
+            <input type="submit" value="VB" id="a1" />
+        </div>
+        <div id="博客搜索">
+            <input type="submit" value="微博搜索" id="a3" />
+            <p><input type="text" id="a4" placeholder="请文章名字" /></p>
+            <p><input type="text" id="a4" placeholder="请输入发表时间" /></p>
+            <input type="submit" value="搜索" id="a5" />
+        </div>
+        <div id="博客红人">
+            <input type="submit" value="博客红人" id="a3" />
+        </div>
+    </div>
+    <div id="footer">
+        <p id="a6">站务联系：     商务合作：    </p>
+    </div>
+
+</body>
+</html>
