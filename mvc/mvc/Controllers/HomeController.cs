@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Rasing.Controllers
+namespace mvc.Controllers
 {
     public class HomeController : Controller
     {
